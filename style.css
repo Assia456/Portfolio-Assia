@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -25,13 +27,46 @@
     padding: 50px;
 }
 
-.position{
-    position: relative;
-    top: 50%;
-    left:30%;
+.body{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #ece7e1;
+}
+
+
+.principal{
+    height: 100vh;
 }
 
 .menu{
     margin-left: 50%;
-    
+}
+
+a{
+    text-decoration: none;
+    color: #1a1818;
+}
+
+.none{
+    list-style: none;
+}
+
+.top20{
+    margin-top: 20px;
+}
+
+.block{
+    display: block;
+    overflow: hidden;
+}
+
+.droite{
+    font-size: 120px;
+}
+.alignend{
+    align-items:flex-end ;
+}
+.droite li{
+    margin-bottom: 100px;
 }
