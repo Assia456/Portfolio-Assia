@@ -54,7 +54,7 @@ h1 {
     padding: 50px;
 }
 
-.body{
+body{
     font-size: 12px;
     background-color: #ece7e1;
 }
@@ -76,6 +76,9 @@ a{
 
 .top20{
     margin-top: 20px;
+}
+.top30{
+    margin-top: 30px;
 }
 
 .block{
@@ -121,8 +124,7 @@ a{
     justify-content: space-between;
 }
 .gauche{
-  
-   
+
     /*
     position: relative;
     top: -100px;
