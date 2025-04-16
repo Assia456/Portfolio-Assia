@@ -80,7 +80,10 @@ a{
 }
 
 .div{
-    padding: 15px 25px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+
 }
 
 /*Margin top*/
