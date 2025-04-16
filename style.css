@@ -147,6 +147,10 @@ margin-bottom: 40px;
 
 /*Font-size*/
 
+.size100{
+    font-size: 100px;
+}
+
 .size80, .retour{
     font-size: 80px;
 }
