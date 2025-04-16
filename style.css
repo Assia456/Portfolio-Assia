@@ -76,11 +76,10 @@ a{
 }
 
 .bgPink{
-    background-color: palevioletred;
+    background-color: rgba(232, 128, 186, 0.598);
 }
 
 .div{
-    padding: 30px 20px;
     text-align: center;
     border-radius: 10px;
 
