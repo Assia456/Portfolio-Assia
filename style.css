@@ -94,6 +94,10 @@ a{
     background-color: rgba(232, 128, 186, 0.598);
 }
 
+.bgBlack{
+    background-color: black;
+}
+
 .div{
     padding: 10px 10px;
     text-align: center;
@@ -204,4 +208,10 @@ margin-bottom: 40px;
 }
 .container{
     padding: 0 32px;
+}
+
+/*CONTACT*/
+
+.white{
+    color: white;
 }
