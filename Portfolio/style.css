@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
     font-family: 'faune';
     src: url('fonts/Faune-TextRegular.otf') format('opentype');
@@ -50,7 +51,6 @@ h1 {
 }
 
 .body{
-    font-family: "Noto Sans", sans-serif;
     font-size: 12px;
     line-height: 20px;
     background-color: #ece7e1;
@@ -92,9 +92,6 @@ a{
 
 .nav{
     text-align: left;
-    position: absolute;
-    width: 100%;
-
 }
 
 .size80{
@@ -117,4 +114,10 @@ a{
 
 .ul{
     position: static;
+}
+
+.home{
+    position: fixed;
+    top: 0;
+    left: 0;
 }
