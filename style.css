@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
 }
+
 h1 {
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -30,6 +31,7 @@ h1 {
     justify-content: space-between;
 }
 
+/* WIDTH*/
 .w45{
     width: 45%;
 }
@@ -43,11 +45,10 @@ h1 {
 .w60{
     width: 60%;
 }
+
+/*Espace*/
 .gap20{
     gap: 20px;
-}
-.align{
-    align-items: end;
 }
 
 .padding{
@@ -74,6 +75,15 @@ a{
     list-style: none;
 }
 
+.bgPink{
+    background-color: palevioletred;
+}
+
+.div{
+    padding: 15px 25px;
+}
+
+/*Margin top*/
 .top20{
     margin-top: 20px;
 }
@@ -81,11 +91,17 @@ a{
     margin-top: 30px;
 }
 
+.top50{
+    margin-top: 50px;
+}
+
+/*Pour aligner les div*/
 .block{
     display: block;
     overflow: hidden;
 }
 
+/* Navigation*/
 .itemNav{
     font-size: 120px;
     font-family: 'faune';
@@ -100,19 +116,21 @@ a{
     text-align: left;
 }
 
+/*Font-size*/
 .size80{
     font-size: 80px;
 }
 
+.size25{
+    font-size: 25px;
+}
 
+/*PARTIE DE GAUCHE*/
 .alignend{
     align-items:flex-end ;
 }
-.droite li{
-    margin-bottom: 80px;
-}
-.container{
-    padding: 0 32px;
+.align{
+    align-items: end;
 }
 .sticky{
     height: 100vh;
@@ -122,13 +140,6 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.gauche{
-
-    /*
-    position: relative;
-    top: -100px;
-    left: 200px;*/
 }
 
 /*vignettes appercu*/
@@ -150,12 +161,21 @@ a{
     align-items: center;
 
 }
-.ul{
-    position: static;
-}
-
+ 
+/*Logo cliquable pour revenir au menu*/
 .home{
     position: fixed;
     top: 0;
     left: 0;
+}
+
+/*PARTIE DE DROITE*/
+.ul{
+    position: static;
+}
+.droite li{
+    margin-bottom: 80px;
+}
+.container{
+    padding: 0 32px;
 }
