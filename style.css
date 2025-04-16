@@ -18,6 +18,8 @@ h1 {
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
+
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +92,13 @@ a{
 
 .nav{
     text-align: left;
+    position: absolute;
+    width: 100%;
+
+}
+
+.size80{
+    font-size: 80px;
 }
 
 
